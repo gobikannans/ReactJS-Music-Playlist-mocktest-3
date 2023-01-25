@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.banner-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+.banner-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.banner-para {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.songs-bg-container {
+  background-color: #152850;
+  height: 80vh;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  overflow: auto;
+}
+
+.songs-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+  border: 1px solid #ffffff;
+  width: 18%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 4vh;
+  color: #cbd5e1;
+  width: 100%;
+}
+
+.btn-style {
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  padding-top: 3px;
+}
+
+.songs-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+}
+
+.song-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.song-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.song-img {
+  width: 150px;
+}
+
+.song-details {
+  margin-left: 10px;
+}
+
+.song-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.song-genre {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.song-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.song-duration {
+  font-family: 'Roboto';
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.no-songs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
